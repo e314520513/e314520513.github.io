@@ -6,7 +6,7 @@
   <link href="http://143.198.105.111:4000/atom.xml" rel="self"/>
   
   <link href="http://143.198.105.111:4000/"/>
-  <updated>2021-12-17T13:17:51.232Z</updated>
+  <updated>2021-12-17T14:06:53.754Z</updated>
   <id>http://143.198.105.111:4000/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://143.198.105.111:4000/2021/12/17/magento2-4-install/"/>
     <id>http://143.198.105.111:4000/2021/12/17/magento2-4-install/</id>
     <published>2021-12-17T05:08:53.000Z</published>
-    <updated>2021-12-17T13:17:51.232Z</updated>
+    <updated>2021-12-17T14:06:53.754Z</updated>
     
     <content type="html"><![CDATA[<h2 id="magento-2-4-安裝之你不知道的事"><a href="#magento-2-4-安裝之你不知道的事" class="headerlink" title="magento 2.4 安裝之你不知道的事"></a>magento 2.4 安裝之你不知道的事</h2><p>以前都用2.3.5 今天想說來安裝最新的2.4以為一帆風順，結果還是遇到一堆阻礙</p><h3 id="會影響初次安裝的module"><a href="#會影響初次安裝的module" class="headerlink" title="會影響初次安裝的module"></a>會影響初次安裝的module</h3><p>Elasticsearch 跟TwoFactorAuth如果一開始沒用到的話可以先disable，好讓安裝以及進入後台可以順利</p><ul><li>Magento_Elasticsearch</li><li>Magento_InventoryElasticsearch</li><li>Magento_Elasticsearch6</li><li>Magento_Elasticsearch7</li><li>Magento_TwoFactorAuth</li></ul>]]></content>
     
@@ -33,9 +33,11 @@
     
     
     
-    <category term="magento" scheme="http://143.198.105.111:4000/categories/magento/"/>
+    <category term="categories" scheme="http://143.198.105.111:4000/categories/categories/"/>
     
-    <category term="2.4" scheme="http://143.198.105.111:4000/categories/magento/2-4/"/>
+    <category term="magento" scheme="http://143.198.105.111:4000/categories/categories/magento/"/>
+    
+    <category term="2.4" scheme="http://143.198.105.111:4000/categories/categories/magento/2-4/"/>
     
     
   </entry>
@@ -45,7 +47,7 @@
     <link href="http://143.198.105.111:4000/2021/10/26/design_principle_pattern_high_concurrent/"/>
     <id>http://143.198.105.111:4000/2021/10/26/design_principle_pattern_high_concurrent/</id>
     <published>2021-10-26T19:14:49.000Z</published>
-    <updated>2021-12-17T13:18:55.625Z</updated>
+    <updated>2021-12-17T14:07:05.610Z</updated>
     
     <content type="html"><![CDATA[<h2 id="高併發設計原理"><a href="#高併發設計原理" class="headerlink" title="高併發設計原理"></a>高併發設計原理</h2><h2 id="資料庫"><a href="#資料庫" class="headerlink" title="資料庫"></a>資料庫</h2><h3 id="讀寫分離"><a href="#讀寫分離" class="headerlink" title="讀寫分離"></a>讀寫分離</h3><p><strong>缺點</strong></p><ul><li><strong>主從延遲</strong></li><li><strong>從庫數量有限</strong></li><li><strong>無法解決TPS高的問題</strong></li></ul><h3 id="拆庫拆表"><a href="#拆庫拆表" class="headerlink" title="拆庫拆表"></a>拆庫拆表</h3><p><strong>拆分方式</strong></p><ul><li><strong>水平拆分</strong></li><li><strong>垂直拆分</strong></li></ul>]]></content>
     
@@ -57,7 +59,9 @@
     
     
     
-    <category term="devops" scheme="http://143.198.105.111:4000/categories/devops/"/>
+    <category term="categories" scheme="http://143.198.105.111:4000/categories/categories/"/>
+    
+    <category term="devops" scheme="http://143.198.105.111:4000/categories/categories/devops/"/>
     
     
   </entry>
