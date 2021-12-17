@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Code Blog</title>
+  
+  
+  <link href="http://143.198.105.111:4000/atom.xml" rel="self"/>
+  
+  <link href="http://143.198.105.111:4000/"/>
+  <updated>2021-12-17T13:10:25.292Z</updated>
+  <id>http://143.198.105.111:4000/</id>
+  
+  <author>
+    <name>Anson Chiu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>magento2.4-install</title>
+    <link href="http://143.198.105.111:4000/2021/12/17/magento2-4-install/"/>
+    <id>http://143.198.105.111:4000/2021/12/17/magento2-4-install/</id>
+    <published>2021-12-17T05:08:53.000Z</published>
+    <updated>2021-12-17T13:10:25.292Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="magento-2-4-安裝之你不知道的事"><a href="#magento-2-4-安裝之你不知道的事" class="headerlink" title="magento 2.4 安裝之你不知道的事"></a>magento 2.4 安裝之你不知道的事</h2><p>以前都用2.3.5 今天想說來安裝最新的2.4以為一帆風順，結果還是遇到一堆阻礙</p><h3 id="會影響初次安裝的module"><a href="#會影響初次安裝的module" class="headerlink" title="會影響初次安裝的module"></a>會影響初次安裝的module</h3><p>Elasticsearch 跟TwoFactorAuth如果一開始沒用到的話可以先disable，好讓安裝以及進入後台可以順利</p><ul><li>Magento_Elasticsearch</li><li>Magento_InventoryElasticsearch</li><li>Magento_Elasticsearch6</li><li>Magento_Elasticsearch7</li><li>Magento_TwoFactorAuth</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;magento-2-4-安裝之你不知道的事&quot;&gt;&lt;a href=&quot;#magento-2-4-安裝之你不知道的事&quot; class=&quot;headerlink&quot; title=&quot;magento 2.4 安裝之你不知道的事&quot;&gt;&lt;/a&gt;magento 2.4 安裝之你不知道的事&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://143.198.105.111:4000/2021/12/16/hello-world/"/>
+    <id>http://143.198.105.111:4000/2021/12/16/hello-world/</id>
+    <published>2021-12-16T12:17:19.262Z</published>
+    <updated>2021-12-16T12:17:19.262Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Che</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Design Principle And Pattern For High Concurrency</title>
+    <link href="http://143.198.105.111:4000/2021/10/26/design_principle_pattern_high_concurrent/"/>
+    <id>http://143.198.105.111:4000/2021/10/26/design_principle_pattern_high_concurrent/</id>
+    <published>2021-10-26T19:14:49.000Z</published>
+    <updated>2021-12-16T12:17:19.262Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="高併發設計原理"><a href="#高併發設計原理" class="headerlink" title="高併發設計原理"></a>高併發設計原理</h2><h2 id="資料庫"><a href="#資料庫" class="headerlink" title="資料庫"></a>資料庫</h2><h3 id="讀寫分離"><a href="#讀寫分離" class="headerlink" title="讀寫分離"></a>讀寫分離</h3><p><strong>缺點</strong></p><ul><li><strong>主從延遲</strong></li><li><strong>從庫數量有限</strong></li><li><strong>無法解決TPS高的問題</strong></li></ul><h3 id="拆庫拆表"><a href="#拆庫拆表" class="headerlink" title="拆庫拆表"></a>拆庫拆表</h3><p><strong>拆分方式</strong></p><ul><li><strong>水平拆分</strong></li><li><strong>垂直拆分</strong></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;高併發設計原理&quot;&gt;&lt;a href=&quot;#高併發設計原理&quot; class=&quot;headerlink&quot; title=&quot;高併發設計原理&quot;&gt;&lt;/a&gt;高併發設計原理&lt;/h2&gt;&lt;h2 id=&quot;資料庫&quot;&gt;&lt;a href=&quot;#資料庫&quot; class=&quot;headerlink&quot; title=</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>golang</title>
+    <link href="http://143.198.105.111:4000/2021/10/26/golang/"/>
+    <id>http://143.198.105.111:4000/2021/10/26/golang/</id>
+    <published>2021-10-26T19:14:49.000Z</published>
+    <updated>2021-12-16T12:17:19.262Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
